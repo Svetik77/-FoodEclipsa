@@ -31,13 +31,17 @@
             <scope>compile</scope>
         </dependency>
 
+ <!--everywhere where common Logging (it is in every apache projects)
+        jcl-over-slf4j forawrd to slf4j api log  -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>${slf4j.version}</version>
             <scope>runtime</scope>
         </dependency>
-
+        
+        
+      <!--  -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -46,6 +50,7 @@
         </dependency>
 
         <!--Web -->
+              <!--tomcat has his artifact, there for provided -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
