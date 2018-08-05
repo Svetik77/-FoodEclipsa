@@ -6,7 +6,7 @@
 
     <appender name="file" class="ch.qos.logback.core.FileAppender">
 <!--         <file>${TOPJAVA_ROOT}/log/topjava.log</file> -->
-        <file>${MY_TOPJAVA_ROOT}/log/foodEclipsa.log</file>
+        <file>${MY_TOPJAVA_ROOT}/log/FoodEclipsa_forked1.log</file>
 <!-- D:\all_java\allGit\stagirovka\MyTopjava\log -->
      
         <encoder>
